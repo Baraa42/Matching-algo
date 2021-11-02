@@ -1,6 +1,6 @@
 # Matching-algo
 Algorithm for matching orders ( for betting )
-
+```
 Address Object {
 string Hex // player address on chain
 }
@@ -23,3 +23,4 @@ Bet Object {
  array/dict playerPayout[] // hold data of player payout : Player -> Selection -> Payout
  
  function placeBet() // matches the bets update bet status update playerpayout etc 
+```
